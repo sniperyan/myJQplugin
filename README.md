@@ -1,2 +1,2 @@
-# myJQplugin
-my jquery plugins using frequently
+# 一些常用的JQ插件的封装
+###  挂在JQ命名空间下，直接调用即可

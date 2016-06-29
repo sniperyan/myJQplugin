@@ -1,0 +1,171 @@
+/*遮罩层*/
+.thick {
+    z-index: 999;
+    display: none;
+    position: fixed !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    border: 0;
+    opacity: .6;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+}
+
+/*旋转加载*/
+.loadding {
+    z-index: 100000;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -130px;
+    margin-top: -90px;
+}
+
+.load {
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #D8D8D8;
+    width: 260px;
+    padding: 40px 80px;
+}
+
+.load .text {
+    color: #363E49;
+    margin-top: 14px;
+    width: 100%;
+}
+
+.load #circularG {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+/*带确定取消提示框*/
+.tip-with-confirm-cancel {
+    z-index: 2000;
+    display: none;
+    position: fixed;
+    padding-bottom: 25px;
+    top: 50%;
+    left: 50%;
+    margin-left: -236px;
+    margin-top: -90px;
+}
+
+.tip-with-confirm-cancel .tip {
+    width: 473px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding-left: -15px;
+    padding-right: -15px;
+    background-color: #fff;
+    padding-bottom: 25px;
+}
+
+.tip-with-confirm-cancel .tip .confirm_head {
+    padding: 15px 13px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #32A3E5;
+}
+
+.tip-with-confirm-cancel .tip .confirm_content {
+    width: 351px;
+    margin: 20px auto;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: left;
+    color: #585858;
+
+}
+
+.tip-with-confirm-cancel .tip .bottomBtn {
+    display: inline-block;
+    width: 140px;
+    height: 37px;
+    line-height: 37px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tip-with-confirm-cancel .tip .confirm {
+    background-color: #FAA401;
+    margin-right: 26px;
+}
+
+.tip-with-confirm-cancel .tip .cancel {
+    background-color: #32A3E5;
+}
+
+/*只有确定按钮*/
+.tip-with-confirm {
+    z-index: 2000;
+    display: none;
+    position: fixed;
+    padding-bottom: 25px;
+    top: 50%;
+    left: 50%;
+    margin-left: -187px;
+    margin-top: -140px;
+}
+
+.tip-with-confirm .tip {
+    width: 375px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding-left: -15px;
+    padding-right: -15px;
+    background-color: #fff;
+    padding-bottom: 25px;
+}
+
+.tip-with-confirm .tip .confirm_head {
+    padding: 15px 13px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #32A3E5;
+}
+
+.tip-with-confirm .tip .confirm_content {
+    width: 290px;
+    margin: 40px auto;
+    line-height: 30px;
+    font-size: 16px;
+    color: #585858;
+
+}
+
+.tip-with-confirm .tip .bottomBtn {
+    display: inline-block;
+    width: 140px;
+    height: 37px;
+    line-height: 37px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tip-with-confirm .tip .confirm {
+    background-color: #FAA401;
+}
